@@ -10,7 +10,7 @@ Emlog2Typecho
 --------
 
    1. 需要依赖[PHP-MySQLi-Database-Class](https://github.com/joshcam/PHP-MySQLi-Database-Class)
-   2. 设置好数据库相关配置
+   2. 在emlog2typecho.php开头处设置好_require路径_以及_数据库相关配置_
    3. 运行emlog2typecho.php
 
 迁移内容列表
@@ -22,10 +22,14 @@ Emlog2Typecho
   - [ ] 附件(迁移不便)
   - [ ] 链接(typecho貌似没有此功能?)
   - [ ] 导航(迁移不便)
-  - [ ] 用户(因密码问题无法迁移)
-  - [ ] 碎语相关内容(typecho无此功能)
+  - [ ] 用户(**因密码问题无法迁移**)
+  - [ ] 碎语相关内容(*typecho无此功能*)
+
+遗留问题
+--------
+ - 博客里面的附件、图片等会失效
 
 测试版本
 --------
 
-emlog 5.3.0 => typecho 0.9 (13.12.12)
+emlog `5.3.0` => typecho `0.9 (13.12.12)`
