@@ -10,7 +10,8 @@ Emlog2Typecho
 --------
 
    1. 需要依赖[PHP-MySQLi-Database-Class](https://github.com/joshcam/PHP-MySQLi-Database-Class)
-   2. 在emlog2typecho.php开头处设置好_require路径_以及_数据库相关配置_
+   2. 需要php包含`mysqli`扩展
+   2. 在[emlog2typecho.php开头处](https://github.com/oyyq99999/emlog2typecho/blob/master/emlog2typecho.php#L2-L13)设置好_require路径_以及_数据库相关配置_
    3. 运行emlog2typecho.php
 
 迁移内容列表
