@@ -65,4 +65,6 @@ Emlog2Typecho
 测试版本
 --------
 
-emlog `5.3.0` => typecho `0.9 (13.12.12)`
+emlog `5.3.0` => typecho `0.9 (13.12.12)`  
+PHP `5.3.10`  
+MySQL `5.5.23`
