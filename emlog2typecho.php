@@ -6,8 +6,8 @@ $db_port = 3306;
 $db_user = 'user';
 $db_passwd = 'password';
 
-$emlogDb = 'blog';
-$emlogPrefix = 'blog_';
+$emlogDb = 'emlog';
+$emlogPrefix = 'emlog_';
 
 $typechoDb = 'typecho';
 $typechoPrefix = 'typecho_';
