@@ -148,7 +148,7 @@ function prepareDataForComments() {
 		'`date` AS `created`',
 		'`poster` AS `author`',
 		'0 AS `authorId`',
-		'0 AS `ownerId`',
+		'1 AS `ownerId`',
 		'`mail`',
 		'`url`',
 		'`ip`',
